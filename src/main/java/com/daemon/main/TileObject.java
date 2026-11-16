@@ -19,6 +19,8 @@ public class TileObject extends JPanel {
 
         setBounds(xLocation, yLocation, width, height);
         setOpaque(false);
+
+        System.out.println("Constructor called...");
     }
 
     @Override

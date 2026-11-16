@@ -2,6 +2,7 @@ package com.daemon.var;
 
 public class __Int {
     public static final int TILE_SIZE = 20;
+    public static final int TILE_STEP = TILE_SIZE;
     public static final int TILE_WIDTH =TILE_SIZE;
     public static final int TILE_HEIGHT =TILE_SIZE;
     public static final int GAME_WINDOW_WIDTH = (int) Math.pow(TILE_SIZE, 2);
